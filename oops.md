@@ -8,7 +8,7 @@
   Hence, class is the blueprint which consists of data members and functions. Objects are instances of class. Each object has a different value of data members mentioned in class.
 
 ## How to create Classes and Objects
-//
+```
 public class Student {
     // information -> data members
     String name;
@@ -17,7 +17,7 @@ public class Student {
     // what it can do with this information -> functions/ methods
 
 }
-//
+```
 
 ## how to access its variables/ data members and how to change values of data members
 
