@@ -21,6 +21,7 @@ public class Student {
 
 ## how to access its variables/ data members and how to change values of data members
 
+```
 public static void main(String[] args) {
     // create object
 		Student s1 = new Student(); // new keyword -> memory allocate in heap
@@ -37,6 +38,7 @@ public static void main(String[] args) {
         The output will be 1 Akshima, as these are the default values of int and string in Java
     */ 
 }
+```
 
 
 
