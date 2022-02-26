@@ -141,7 +141,7 @@ public class Student {
 Note : **The combination of static and final in Java is makes a variable constanst**
 
 ## THIS KEYWORD
-*this* is a keyword used in member functions to access local variables with the same name as data members. *this* refer to the current object to which function is called
+*'this'* is a keyword used in member functions to access local variables with the same name as data members. *'this'* refer to the current object to which function is called
 
 
 
