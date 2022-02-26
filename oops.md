@@ -91,9 +91,7 @@ The **static** keyword means the value is the same for every instance of the cla
 
 The **final**  keyword means once the variable is assigned a value it can never be changed. 
 
-Note : 
-
-The combination of static final in Java is how to create a constant value.
+Note : **The combination of static final in Java is how to create a constant value.**
 
 
 
