@@ -22,7 +22,7 @@ public class Student {
 ```
 
 ## HOW TO CREATE OBJECT
-Student st = new Student();
+```Student st = new Student();```
 
 ## HOW TO ACCESS DATA MEMBER AND HOW TO CHANGE VALUE OF DATA MEMBER
 
