@@ -46,13 +46,13 @@ public static void main(String[] args) {
 ```
 
 ## ACCESS MODIFIER
-1. public
+1. public : 
 Public access modifier can be accessed from anywhere. Variables and functions with public access modifier can be accessed from anywhere. 
 
-2. Private
+2. Private : 
 Private access modifier restricts access to the same class. Variables and functions with private access modifier can be accessed within the same class.
  
-3. Default
+3. Default : 
 Default access modifier restricts access to the same package. Variables and functions with default access modifier can be accessed within the same package.
 
 
