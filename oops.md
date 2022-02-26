@@ -86,7 +86,7 @@ public Student (String name, int rollno) {
 3. You can have multiple custom constructors.  
     
     
-## STATIC AND FINAL
+## STATIC AND FINAL KEYWORD
 **Static** : static is used to define the class member that can be used independently of any object of the class. In other word, If a variable is static, then it would be common to all the object. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
 
 Code :
@@ -139,6 +139,9 @@ public class Student {
 }
 ```
 Note : **The combination of static and final in Java is makes a variable constanst**
+
+## THIS KEYWORD
+*this* is a keyword used in member functions to access local variables with the same name as data members. *this* refer to the current object to which function is called
 
 
 
