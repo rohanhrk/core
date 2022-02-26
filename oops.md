@@ -9,6 +9,8 @@
 
 ## HOW TO CREATE CLASS
 ```
+// Strudent -> class name
+// public -> access modifier
 public class Student {
     // information -> data members
     String name;
