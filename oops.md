@@ -70,6 +70,20 @@ public Student () {
 
 **2. Parameterised Constructor** -> Apart from the default constructor, we can give custom values as arguments and those arguments can be used to initialise the values of data members. 
 
+```
+public Student (String name, int rollno) {
+	this.name = name;
+	this.rollno = rollno;
+}
+```
+
+**Note:** 
+    
+    1. Java gives you a default constructor, even if you don’t write it. 
+    
+    2. If you write your own parameterised constructor, then Java deletes its default constructor.
+    
+    3. You can have multiple custom constructors.  
 
 
 
