@@ -61,14 +61,14 @@ Default access modifier restricts access to the same package. Variables and func
 
 -> The access specifier can be either public or private or default. The constructor doesn’t have any return type and its name is the same as that of the class name. 
 
-**1. default constructor** -> The default constructor creates object and gives default values to the data members
+###### **1. default constructor** -> The default constructor creates object and gives default values to the data members
 ```
 public Student () {
 
 }
 ```
 
-**2. Parameterised Constructor** -> Apart from the default constructor, we can give custom values as arguments and those arguments can be used to initialise the values of data members. 
+###### **2. Parameterised Constructor** -> Apart from the default constructor, we can give custom values as arguments and those arguments can be used to initialise the values of data members. 
 
 ```
 public Student (String name, int rollno) {
@@ -77,7 +77,7 @@ public Student (String name, int rollno) {
 }
 ```
 
-**Note:** 
+###### Note: 
     
 1. Java gives you a default constructor, even if you don’t write it. 
 
@@ -87,9 +87,10 @@ public Student (String name, int rollno) {
     
     
 ## STATIC AND FINAL KEYWORD
-**Static** : static is used to define the class member that can be used independently of any object of the class. In other word, If a variable is static, then it would be common to all the object. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
+###### STATIC : 
+static is used to define the class member that can be used independently of any object of the class. In other word, If a variable is static, then it would be common to all the object. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
 
-Code :
+###### Code :
 ```
 public class Main {
 	public class Student {
@@ -120,9 +121,10 @@ OUTPUT : 0
 	
 	 3
 ```
-**Final** :  There would be some data members whose value you would not like to change. In other word, Veriable which are final they are initialized only once. For example, we want to say that the roll number for a student is fixed and once allotted, it will never change. We can use the final keyword for the same. Once initialised, the value of the final variable can never change.
+###### FINAL :  
+There would be some data members whose value you would not like to change. In other word, Veriable which are final they are initialized only once. For example, we want to say that the roll number for a student is fixed and once allotted, it will never change. We can use the final keyword for the same. Once initialised, the value of the final variable can never change.
 
-Code :
+###### Code :
 
 ```
 public class Student {
@@ -138,10 +140,11 @@ public class Student {
 	}
 }
 ```
-Note : **The combination of static and final in Java is makes a variable constanst**
+###### Note : 
+The combination of static and final in Java is makes a variable constanst.
 
 ## THIS KEYWORD
-*'this'* is a keyword used in member functions to access local variables with the same name as data members. *'this'* refer to the current object to which function is called
+*'this'* is a keyword used in member functions to access local variables with the same name as data members. *'this'* refer to the current object to which function is called.
 
 ## IMPORT STATEMENT
 
