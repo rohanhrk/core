@@ -84,6 +84,14 @@ public Student (String name, int rollno) {
     2. If you write your own parameterised constructor, then Java deletes its default constructor.
     
     3. You can have multiple custom constructors.  
+    
+    
+## STATIC AND FINAL
+The **static** keyword means the value is the same for every instance of the class. 
+
+The **final**  keyword means once the variable is assigned a value it can never be changed. 
+
+Note : The combination of static final in Java is how to create a constant value.
 
 
 
