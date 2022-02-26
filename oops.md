@@ -57,9 +57,18 @@ Default access modifier restricts access to the same package. Variables and func
 
 
 ## COMSTRUCTOR
-The job of the constructor is to allocate memory to the object and create it in the heap. 
-1. default constructor 2. Parameterised Constructor
+-> The job of the constructor is to allocate memory to the object and create it in the heap. 
+-> The access specifier can be either public or private or default. The constructor doesn’t have any return type and its name is the same as that of the class name. 
 
-# default cons
+**1. default constructor** -> The default constructor creates object and gives default values to the data members
+```
+public Student () {
+
+}
+```
+
+**2. Parameterised Constructor** -> Apart from the default constructor, we can give custom values as arguments and those arguments can be used to initialise the values of data members. 
+
+
 
 
