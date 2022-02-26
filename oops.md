@@ -29,15 +29,15 @@ public class Student {
 ```
 public static void main(String[] args) {
     // create object
-		Student s1 = new Student(); // new keyword -> memory allocate in heap
-		System.out.println(s1.rollno + " " + s1.name); 
+    Student s1 = new Student(); // new keyword -> memory allocate in heap
+    System.out.println(s1.rollno + " " + s1.name); 
     /* 
         The output will be 0 null, as these are the default values of int and string in Java
     */ 
     
     // value change
-		s1.rollno=1;
-		s1.name="Akshima";
+    s1.rollno=1;
+    s1.name="Akshima";
     System.out.println(s1.rollno + " " + s1.name);
     /* 
         The output will be 1 Akshima, as these are the default values of int and string in Java
@@ -79,15 +79,15 @@ public Student (String name, int rollno) {
 
 **Note:** 
     
-    1. Java gives you a default constructor, even if you don’t write it. 
-    
-    2. If you write your own parameterised constructor, then Java deletes its default constructor.
-    
-    3. You can have multiple custom constructors.  
+1. Java gives you a default constructor, even if you don’t write it. 
+
+2. If you write your own parameterised constructor, then Java deletes its default constructor.
+
+3. You can have multiple custom constructors.  
     
     
 ## STATIC AND FINAL
-**Static** : static is used to define the class member that can be used independently of any object of the class. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
+**Static** : static is used to define the class member that can be used independently of any object of the class. In other word, If a variable is static, then it would be common to all the object. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
 
 Code :
 ```
@@ -138,7 +138,7 @@ public class Student {
 	}
 }
 ```
-Note : **The combination of static final in Java is how to create a constant value.**
+Note : **The combination of static and final in Java is makes a variable constanst**
 
 
 
