@@ -87,9 +87,41 @@ public Student (String name, int rollno) {
     
     
 ## STATIC AND FINAL
-The **static** keyword means the value is the same for every instance of the class. 
+The **static** keyword means the value is the same for every instance of the class. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
 
-The **final**  keyword means once the variable is assigned a value it can never be changed. 
+Code :
+```
+public class Main {
+	public class Student {
+		// information
+		String name;
+		int rollno;
+		static int num_students;
+		
+		// constructor
+		public Student(String name, int rollno) {
+			this.name = name;
+			this.rollno = rollno;
+			
+			this.num_student++;
+		}
+	}
+	
+	public void main(String[] args) {
+		System.out.println(Student.num_student);
+		Student s1 = new Student("Bornali", 12);
+		Student s2 = new Student("Sahin", 15);
+		Student s3 = new Studnet("Rohan", 53);
+		System.out.println(Student.num_student);
+	}
+}
+
+**OUTPUT : 0
+	
+	   3
+	** 
+```
+The **final**  keyword There would be some data members whose value you would not like to change. For example, we want to say that the roll number for a student is fixed and once allotted, it will never change. We can use the final keyword for the same. Once initialised, the value of the final variable can never change.
 
 Note : **The combination of static final in Java is how to create a constant value.**
 
