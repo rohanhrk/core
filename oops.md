@@ -56,4 +56,10 @@ Private access modifier restricts access to the same class. Variables and functi
 Default access modifier restricts access to the same package. Variables and functions with default access modifier can be accessed within the same package.
 
 
+## COMSTRUCTOR
+The job of the constructor is to allocate memory to the object and create it in the heap. 
+1. default constructor 2. Parameterised Constructor
+
+# default cons
+
 
