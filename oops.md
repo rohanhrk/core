@@ -87,15 +87,15 @@ public Student (String name, int rollno) {
     
     
 ## STATIC AND FINAL
-The **static** keyword means the value is the same for every instance of the class. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
+**Static** : static is used to define the class member that can be used independently of any object of the class. For example if we want to count the number of student objects created by student class, then we can keep a static variable called num_students and increment it in the constructor.   
 
 Code :
 ```
 public class Main {
 	public class Student {
 		// information
-		String name;
-		int rollno;
+		private String name;
+		private int rollno;
 		static int num_students;
 		
 		// constructor
@@ -116,13 +116,28 @@ public class Main {
 	}
 }
 
-**OUTPUT : 0
+OUTPUT : 0
 	
-	   3
-	** 
+	 3
 ```
-The **final**  keyword There would be some data members whose value you would not like to change. For example, we want to say that the roll number for a student is fixed and once allotted, it will never change. We can use the final keyword for the same. Once initialised, the value of the final variable can never change.
+**Final** :  There would be some data members whose value you would not like to change. In other word, Veriable which are final they are initialized only once. For example, we want to say that the roll number for a student is fixed and once allotted, it will never change. We can use the final keyword for the same. Once initialised, the value of the final variable can never change.
 
+Code :
+
+```
+public class Student {
+	// information
+	private String name;
+	// variable which are final, they are initialized only once
+	private final int rollno;
+
+	// constructor
+	public Student(String name, int rollno) {
+		this.name = name;
+		this.rollno = rollno;
+	}
+}
+```
 Note : **The combination of static final in Java is how to create a constant value.**
 
 
