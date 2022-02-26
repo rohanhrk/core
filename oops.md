@@ -143,5 +143,9 @@ Note : **The combination of static and final in Java is makes a variable constan
 ## THIS KEYWORD
 *'this'* is a keyword used in member functions to access local variables with the same name as data members. *'this'* refer to the current object to which function is called
 
+## IMPORT STATEMENT
+
+In Java, the import statement is used to bring certain classes or the entire packages, into visibility. As soon as imported, a class can be referred to directly by using only its name. The import statement is a convenience to the programmer and is not technically needed to write complete Java program.
+
 
 
